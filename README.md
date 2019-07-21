@@ -2,7 +2,7 @@
 
 This is an unoffical Docker container to run [Relica Backup](https://relicabackup.com/).
 
-If you like it please consider signing up with my [referral link](https://relicabackup.com/download?refid=e9d5fe71-6b90-480b-bd37-65d145b6df1b).
+If you like it please consider signing up with my [referral link](https://relicabackup.com/download?refid=0221c7a3-ffd0-4d1a-91b6-1cf6999f99fd).
 
 Relica is designed to be run on your local machine and there are a number of challenges to running it remotely, which this container aims to solve.
 
