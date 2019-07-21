@@ -2,7 +2,7 @@ FROM alpine:3.8
 
 ARG S6_OVERLAY_VER=1.21.7.0
 
-RUN apk add --no-cache curl ca-certificates shadow gnupg bash gomplate \
+RUN apk add --no-cache curl ca-certificates shadow gnupg bash gomplate tzdata \
   && rm -rf /var/cache/apk/* \
   && curl -L -s "https://github.com/just-containers/s6-overlay/releases/download/v${S6_OVERLAY_VER}/s6-overlay-amd64.tar.gz" \
    | tar xvzf - -C / \
