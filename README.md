@@ -35,7 +35,7 @@ LISTEN_ADDRESS # *
 
 
 ```shell
-docker run -v $(pwd)/config-dir:/config -v $(pwd)/backup-dir:/backup -p 1301:1301/tcp -e RGID=998 -e RUID=1000 rjocoleman/relica
+docker run -v $(pwd)/config-dir:/config -v $(pwd)/backup-dir:/backup -p 1301:1301/tcp -e RGID=998 -e RUID=1000 zatah/relica-docker
 open http://127.0.0.1:1301
 ```
 
